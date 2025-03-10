@@ -21,7 +21,7 @@ const PizzaGuy = () => {
                                 <p className='ff-schoolbell md:text-2xl text-lg font-normal md:leading-[180%] leading-normal md:max-w-[594px] max-w-[300px] border-b pb-2 border-black'>The pizza-slingin’, joint-tokin’, all-in degen fresh from the Matt Furie multiverse, here to leave his greasy mark on the memeverse one slice at a time. PepeRuney's the king of high-stakes and low-stress vibin’. Spot the red hat and polo? You know it’s pizza time, baby! Whether he’s hustlin’ for the next big score or chillin’ with the Boys Club, PepeRuney guarantees one thing: the vibes and the dough are always rollin’</p>
                                 <div className='flex justify-between py-3'>
                                     <p className='ff-schoolbell md:text-[32px] text-xl font-normal '>FEELS GREAT MAN!</p>
-                                    <Image src="/assets/images/png/manefesto.png" alt='manefesto' width={262} height={74} className='md:w-[262px] w-[200px] max-sm:w-[130px]'/>
+                                    <Image src="/assets/images/png/manefesto.png" alt='manefesto' width={262} height={74} className='md:w-[262px] w-[200px] max-sm:w-[130px] hover:scale-110 transition-all duration-300'/>
                                 </div>
 
                             </div>

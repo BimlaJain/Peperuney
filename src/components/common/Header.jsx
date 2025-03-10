@@ -35,8 +35,8 @@ const Header = () => {
                     </div>
                     <ul className="flex items-center gap-2 max-md:hidden">
                         {SOCIAL_LINKS.map((obj, index) => (
-                            <li key={index}>
-                                <Link href={obj.link} className="hover:text-dark-orange transition-all duration-300">
+                            <li key={index} className="hover:scale-110 transition-all duration-300">
+                                <Link href={obj.link} className="hover:scale-125 transition-all duration-300">
                                     <Image src={obj.icon} alt={obj.alt} width={77} height={67} />
                                 </Link>
                             </li>
