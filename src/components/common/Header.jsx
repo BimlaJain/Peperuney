@@ -14,6 +14,10 @@ const Header = () => {
     return (
         <div id="navbar" className="w-full mt-[30px] relative">
             <div className="container max-w-[1177px] mx-auto max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
+                <div className="flex gap-3  relative z-40  md:hidden">
+                    <Image src="/assets/images/svg/flag.svg" alt="flag" width={41} height={31} className="cursor-pointer" />
+                    <Image src="/assets/images/svg/down-arrow.svg" alt="down-arrow" width={16} height={16} className="cursor-pointer" />
+                </div>
                 <Link href="/">
                     <Image
                         width={262}
@@ -23,8 +27,9 @@ const Header = () => {
                         className="w-[262px] h-[75px] hidden md:block"
                     />
                 </Link>
-                <div className="flex gap-10">
-                    <div className="flex gap-3  relative z-40">
+                
+                <div className="flex gap-10 max-md:hidden">
+                    <div className="flex gap-3  relative z-40 ">
                         <Image src="/assets/images/svg/flag.svg" alt="flag" width={41} height={31} className="cursor-pointer" />
                         <Image src="/assets/images/svg/down-arrow.svg" alt="down-arrow" width={16} height={16} className="cursor-pointer" />
                     </div>
