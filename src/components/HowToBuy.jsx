@@ -7,38 +7,6 @@ import PeperuneySlider from './common/CommonSlider';
 const HowToBuy = () => {
   return (
     <div>
-          {/* <div className='bg-[#067A52]  border-y-2 border-black md:pt-[30px] pt-4 pb-12 relative -z-10'>
-              <Marquee className='flex '>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-                  <div className="relative">
-                      <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                      <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                  </div>
-              </Marquee>
-          </div> */}
           <PeperuneySlider className='!bg-[#067A52] md:pt-[30px] pt-4 pb-16 relative -z-10' />
           <div className="relative bg-white z-10 -mt-10" id="how-to-buy">
               <div className="mt-[72px] relative z-10">
