@@ -29,3 +29,10 @@
 .room-bg {
   background-image: url('/assets/images/webp/living-room-tv.webp') !important;
 }
+
+@media(max-width:639.99px) {
+
+  .room-bg {
+    background-image: url('/assets/images/webp/earn-and-arcade.webp') !important;
+  }
+}
