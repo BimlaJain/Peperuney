@@ -21,3 +21,11 @@
 .pizzaguy-bg-image {
   background-image: url("/assets/images/png/pizzaguy-bg.png");
 }
+
+.click-bg {
+  background-image: url('/assets/images/webp/click-bg.webp') !important;
+}
+
+.room-bg {
+  background-image: url('/assets/images/webp/living-room-tv.webp') !important;
+}

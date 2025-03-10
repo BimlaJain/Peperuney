@@ -134,38 +134,6 @@ const PizzaNomix = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-[#DA291C]  border-y-2 border-black md:pt-[30px] pt-4 md:pb-3 relative -z-10'>
-                <Marquee className='flex '>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                    <div className="relative">
-                        <p className="text-[40px] font-regular text-white mr-10 absolute -top-1 -left-1">$ PepeRuney</p>
-                        <p className="text-[40px] font-regular text-black mr-10">$ PepeRuney</p>
-                    </div>
-                </Marquee>
-            </div>
         </>
     );
 }
